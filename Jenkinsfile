@@ -19,7 +19,7 @@ pipeline {
                stage("Docker Build Image") {
             steps {
                 echo  'proceeding to deploy...'
-                app = docker.build("webslinger74/jenkinsTest)
+                app = docker.build("webslinger74/jenkinsTest")
             }
         
     }

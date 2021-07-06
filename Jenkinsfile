@@ -22,7 +22,7 @@ pipeline {
                    steps {
                        echo  'proceeding to deploy...'
                     script {
-                      app = docker.build("webslinger74/jenkinsTest")
+                      app = docker.build("webslinger74/jenkinstest")
                     }
              }
         
